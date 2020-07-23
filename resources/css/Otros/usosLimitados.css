@@ -1,0 +1,3 @@
+div[class~="ql-editor"] > p {
+    text-align: center !important;
+}

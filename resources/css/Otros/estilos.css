@@ -1,0 +1,56 @@
+.pared, a {
+    display: block;
+}
+
+footer {
+    height: auto;
+    background-color: #19232D !important;
+    color: #C5C7CB;
+    padding-top: 10% !important;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.contenido {
+    padding-top: 8%;
+}
+
+.editor {
+    height: auto !important;
+}
+
+p > img {
+    max-width: 30%;
+}
+
+@media (max-width: 550px) {
+    div[class~="ql-editor"] > p {
+        padding-top: 8%;
+    }
+
+    p > img {
+        max-width: 80%;
+    }
+
+    .contenido {
+        padding-bottom: 30%;
+        padding-top: 15% !important;
+    }
+}
+
+@media (max-width: 310px) {
+    div[class~="ql-editor"] > p {
+        padding-top: 20%;
+    }
+
+    .contenido {
+        padding-top: 30% !important;
+    }
+}
